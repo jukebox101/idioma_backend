@@ -39,12 +39,12 @@ class UsersController < ApplicationController
     end
   
     # before_action :authenticate
-    def profile
-      # find that use in the database (happens in the authenticate before_action)
-      @current_user.update(bio: params[:bio], avatar: params[:avatar])
+    # def profile
+    #   # find that use in the database (happens in the authenticate before_action)
+    #   @current_user.update(bio: params[:bio], avatar: params[:avatar])
   
-      render json: @current_user
-    end
+    #   render json: @current_user
+    # end
   
   end
   
