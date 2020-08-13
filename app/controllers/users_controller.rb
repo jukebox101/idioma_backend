@@ -4,9 +4,7 @@ class UsersController < ApplicationController
     def create
       user = User.create(
         username: params[:username],
-        password: params[:password],
-        bio: params[:bio],
-        avatar: params[:avatar],
+        password: params[:password]
       )
   
       if user.valid?
