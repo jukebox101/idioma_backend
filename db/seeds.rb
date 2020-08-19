@@ -3,7 +3,7 @@ Exercise.destroy_all
 CompletedExercise.destroy_all
 
 intro_lesson = Lesson.create(
-    title: "Intro",
+    title: "Introduction",
     description: "Introductory topics like gender and basic verb conjugation."
 )
 

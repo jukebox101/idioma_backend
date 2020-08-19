@@ -5,6 +5,15 @@ class CompletedExercisesController < ApplicationController
         render json: completed_exercises
     end
 
+    def user_completed
+        completed_exercises = CompletedExercise.where(user_id: @current_user.id)
+        if completed_exercises
+            render json: completed_exercises, status: :created
+        else
+            render json: { error: completed_exercises.errors.full_messages }, status: :bad_request
+          end
+    end
+
     def create
         completed_exercise = CompletedExercise.create(
             user_id: @current_user.id,
