@@ -1,3 +1,3 @@
 class ExerciseSerializer < ActiveModel::Serializer
-  attributes :id, :questions, :answers, :lesson_id
+  attributes :id, :questions, :answers, :correct, :category, :lesson_id
 end
