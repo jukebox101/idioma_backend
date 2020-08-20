@@ -17,7 +17,8 @@ class CompletedExercisesController < ApplicationController
     def create
         completed_exercise = CompletedExercise.create(
             user_id: @current_user.id,
-            exercise_id: params[:exercise_id]
+            exercise_id: params[:exercise_id],
+            lesson_id: params[:lesson_id]
             )
 
         if completed_exercise.valid?
