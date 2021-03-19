@@ -1,24 +1,11 @@
-# README
+Idioma 📚🇪🇸📚
+========================
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Idioma is a language learning application for people who are interesting in learning the basics of the Spanish language. The user will be able to create an account, which will give them access to lessons, and  exercises based what they’ve learned as well as view their completed exercises, making it easier to track their progress.
 
-Things you may want to cover:
+---
+## Built With
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- [React](https://reactjs.org/)
+- [Ruby on Rails](https://rubyonrails.org/)
+- [React Bootstrap](https://react-bootstrap.netlify.app/)
